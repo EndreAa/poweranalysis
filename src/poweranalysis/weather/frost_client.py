@@ -438,13 +438,10 @@ class FrostDataRetriever:
             raise ValueError("lon must be between -180 and 180.")
 
 
-class FrostDataRetriver(FrostDataRetriever):
-    """Backward-compatible alias for existing notebook imports (legacy typo)."""
-
 
 __all__ = [
     "FrostAPIConfig",
     "FrostAPIError",
     "FrostDataRetriever",
-    "FrostDataRetriver",
+
 ]
